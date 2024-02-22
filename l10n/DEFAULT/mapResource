@@ -1,0 +1,8 @@
+mapResource = 
+{
+    ["ResKey_ImageBriefing_14781"] = "500px-USAF_-_Warfare_Center.png",
+    ["ResKey_Action_23057"] = "2000hzSaw.ogg",
+    ["ResKey_ImageBriefing_14780"] = "500px-USAF_-_Warfare_Center.png",
+    ["ResKey_ImageBriefing_14794"] = "500px-USAF_-_Warfare_Center.png",
+    ["ResKey_ImageBriefing_14795"] = "500px-USAF_-_Warfare_Center.png",
+} -- end of mapResource
