@@ -19,9 +19,12 @@ To build locally on your machine, you need to have 7zip installed.
 If the 7zip program is not installed in c:\program files\7zip, then setup with an alternate loccation via adding a environment variable 
 PRG_7ZIP="d:\new-location\to\7zip-folder"
 
+cd to c:\path\to\your\dev\455\NTTR
 ```
-git clone https://github.com/455vAEW/NTTR.git 
+.\build\build.cmd
 ```
+
+The above command should produce the latest NTTR miz file.
 
 
 Then review, stage, commit, and push.  Example (items within <> should not contain 
