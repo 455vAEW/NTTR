@@ -11,9 +11,19 @@ How to build
 
 Clone the repo to your local filesystem.  Example:
 ```
-git commit 
+git clone https://github.com/455vAEW/NTTR.git 
 ```
 Make your changes.
+
+To build locally on your machine, you need to have 7zip installed.
+If the 7zip program is not installed in c:\program files\7zip, then setup with an alternate loccation via adding a environment variable 
+PRG_7ZIP="d:\new-location\to\7zip-folder"
+
+```
+git clone https://github.com/455vAEW/NTTR.git 
+```
+
+
 Then review, stage, commit, and push.  Example (items within <> should not contain 
 '<>' but rather are exmaples of generic items:
 ```
@@ -23,6 +33,8 @@ git rm <your removed files>
 git commit -m "some coherent comment about your changes"
 git push
 ```
+
+
 
 **Procedures for change mission miz files within the DCS Mission Editor:**
 1. Obtain "the latest" miz file
