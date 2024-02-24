@@ -14,13 +14,15 @@ rem -xr!*.miz   -- except matching !.git
 rem -xr!*.yml   -- except matching !.yml
 rem -xr!*.yml   -- except matching !.yml
 
-if "%PRG_ZIP%" == "" (
+if X%PRG_7ZIP% == X (
 set PRG_7ZIP="c:\Program Files\7-Zip\7z"
-echo setting PRG_ZIP to %PRG_ZIP%
+echo setting PRG_Z7IP to %PRG_7ZIP%
 )
-else (
-echo using PRG_ZIP = %PRG_ZIP%
+else 
+(
+echo using PRG_7ZIP = %PRG_7ZIP%
 )
+
 
 set MISSION_FILE=NTTR-455-latest.miz
 copy dummy.miz %MISSION_FILE%
